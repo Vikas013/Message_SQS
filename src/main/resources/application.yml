@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    credentials:
+      access-key: AKIASTRM6743BS4FEST3
+      secret-key: 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
+    end-point:
+      uri: https://sqs.ap-south-1.amazonaws.com/179409190710/MyQUeue
