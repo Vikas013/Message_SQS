@@ -1,9 +1,7 @@
 package com.demo.aws.sqs;
 
 
-
 import javax.servlet.http.HttpServletRequest;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +13,6 @@ import org.springframework.cloud.aws.messaging.core.QueueMessagingTemplate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.scheduling.annotation.Async;
-
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
@@ -57,12 +54,8 @@ public class SpringbootAwsSqsExeApplication {
     		return null;
     	}
     	
-
-    	
     }
     
-
-
     public static void main(String[] args) {
         SpringApplication.run(SpringbootAwsSqsExeApplication.class, args);
         
